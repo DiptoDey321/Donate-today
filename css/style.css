@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* banner part css  */
+.banner{
+    background-image: url(../images/banner.png);
+}
+.banner-details{
+    width: 522px;
+    margin-left: 156px;
+    padding-top: 121px;
+}
+.banner-details h2{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-details p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 20px;
+}
+.banner-buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 130px;
+}
+.button-donate{
+    padding: 16px 20px;
+    background-color: #FF5959;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+.button-watch{
+    border: none;
+    background-color: transparent;
+}
+.button-text{
+    font-size: 18px;
+    color: #707070;
+    margin-left: 10px;
+}
+
+/* donate part css  */
+.donate-today{
+   margin-top: 130px;
+   text-align: center;
+}
+.donate-today h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.donate-today p{
+    color: #707070;
+    font-size: 18px;
+}
+.motivation{
+    margin-top: 20px;
+}
+.amount{
+    margin-top: 50px;
+    display: flex;
+    gap: 22px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.amount-style{
+    height: 123px;
+    width: 136px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #707070;
+    font-weight: 700;
+    border: 2px solid #FAFAFA;
+}
+.amount-style:hover{
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+.donate-today input{
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+.amount-tk::placeholder{
+    color: #B3B3B3;
+    font-size: 18px;
+}
+.donate-button button{
+    margin-top: 30px;  
+    padding: 16px 20px;
+    background-color: #FF5959;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* plans  */
+.three-plans{
+    margin-top: 50px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+.box-style{
+    width: 360px;
+    height: 352px;
+    padding-left:0px;
+    background-color: rgba(79, 157, 166, 0.103);
+}
